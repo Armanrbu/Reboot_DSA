@@ -10,3 +10,15 @@ while(N > 0):
 print(count)
 
 
+#Counting Using recursion function
+
+def count_digit(N):
+    c = 0
+    if N == 0:
+        return 0
+    return 1 +count_digit(N // 10)
+
+
+print(count_digit(1121))
+
+
