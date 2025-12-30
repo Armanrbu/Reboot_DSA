@@ -22,3 +22,10 @@ def count_digit(N):
 print(count_digit(1121))
 
 
+# Using Maths
+
+import math as m           #Import library
+def count_log(N):
+    return int(m.log10(N)+1)
+
+print(count_log(1221))
