@@ -39,3 +39,12 @@ def func(n):
 
 func(3)
 
+"""Print N to 1 using Tail recursion"""
+
+def funs(i,n):
+    if i > n:
+        return
+    funs(i+1,n)
+    print(i)
+
+funs(2)
