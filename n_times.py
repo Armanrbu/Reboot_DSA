@@ -19,3 +19,13 @@ def funa(n,times):
 
 funa(2,3)
 
+"""Print N to 1 using head recursion"""
+
+def funnb(n):
+    if n == 0:
+        return
+    print(n)
+    funnb(n-1)
+
+funnb(12)
+
