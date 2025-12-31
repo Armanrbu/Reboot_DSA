@@ -29,3 +29,13 @@ def funnb(n):
 
 funnb(12)
 
+"""Print 1 to N Using tail recursion"""
+
+def func(n):
+    if n == 0:
+        return
+    func(n-1)
+    print(n)
+
+func(3)
+
