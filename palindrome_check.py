@@ -14,4 +14,11 @@ def check_palindrome(string,left,right):
 
 # print(a)
 
+def palindrome(string):
+    string = string.lower()
+    return check_palindrome(string,0,len(string)-1)
+    
+
+a = palindrome("NITIn")
+print(a)
 
